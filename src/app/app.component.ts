@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { LoginComponent } from './user-auth/login/login.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +6,7 @@ import { LoginComponent } from './user-auth/login/login.component';
 })
 export class AppComponent {
   title = 'blog';
+  getName(name:string | number){
+    alert(name+" be alert!!!!!!!!!")
+  }
 }
